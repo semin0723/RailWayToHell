@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp">
+      <Filter>Common\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootChandelier.cpp">
+      <Filter>Common\Player\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Common\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterComponent.cpp">
+      <Filter>Common\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="StageInfo.cpp">
+      <Filter>Common\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMonster.cpp">
+      <Filter>Common\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Shade.cpp">
+      <Filter>Common\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor_Aim.cpp">
+      <Filter>UI\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="Selectable.cpp">
+      <Filter>Common\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterIdle.cpp">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMove.cpp">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAttack.cpp">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEffect.cpp">
+      <Filter>Common\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Common\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICommand.cpp">
+      <Filter>Common\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>Common\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterRush.cpp">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="RushTest.cpp">
+      <Filter>Common\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthComponent.cpp">
+      <Filter>Common\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnterEffecter.cpp">
+      <Filter>Common\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneExitEffecter.cpp">
+      <Filter>Common\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterFarAttack.cpp">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Highlightable.cpp">
+      <Filter>Common\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintActionPriority.cpp">
+      <Filter>Common\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="FarMonster.cpp">
+      <Filter>Common\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingHorse.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnObject.cpp">
+      <Filter>UI\TurnInfoPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnPannel.cpp">
+      <Filter>UI\TurnInfoPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveIcon.cpp">
+      <Filter>UI\TurnInfoPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="NextTurnText.cpp">
+      <Filter>UI\WaveInfoPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="NextWaveInfoPannel.cpp">
+      <Filter>UI\WaveInfoPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="StageUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TrashAnimation.cpp">
+      <Filter>Common\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveObject.cpp">
+      <Filter>UI\WaveInfoPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponStateUI.cpp">
+      <Filter>UI\PlayerWeaponState</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog.cpp">
+      <Filter>UI\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TextObject.cpp">
+      <Filter>UI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnWarning.cpp">
+      <Filter>UI\SpawnWarning</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterInfoPannel.cpp">
+      <Filter>UI\WaveInfoPannel\MonsterInfoPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticModeBtn.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialPlayer.cpp">
+      <Filter>Common\Tutorial\TutorialPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialGameManager.cpp">
+      <Filter>Common\Tutorial\TutorialGameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnLeft.cpp" />
+    <ClCompile Include="ScrollObject.cpp">
+      <Filter>Common\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerText.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatBalloonComponent.cpp">
+      <Filter>Common\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPhase.cpp">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="HasTargetInRange.cpp">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="IsEnemyRightInFront.cpp">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="RootBehavior.cpp">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetIsMonster.cpp">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetIsNone.cpp">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetIsPlayer.cpp">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPlayerTarget.cpp">
+      <Filter>Common\MonsterBehavior\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPattern.cpp">
+      <Filter>Common\MonsterBehavior\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackToPlayer.cpp">
+      <Filter>Common\MonsterBehavior\Boss\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Common\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossLeftHand.cpp">
+      <Filter>Common\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRightHand.cpp">
+      <Filter>Common\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackTile.cpp">
+      <Filter>Common\MonsterBehavior\Boss\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverUI.cpp">
+      <Filter>UI\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonUI.cpp">
+      <Filter>UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageUI.cpp">
+      <Filter>UI\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>Common\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FarMonsterAIComponent.cpp">
+      <Filter>Common\Component\AIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="NearMonsterAIComponent.cpp">
+      <Filter>Common\Component\AIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="RushMonsterAIComponent.cpp">
+      <Filter>Common\Component\AIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAIComponent.cpp">
+      <Filter>Common\Component\AIComponent\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderStaticTileAttack.cpp">
+      <Filter>Common\MonsterBehavior\Boss\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StageGoalPannel.cpp">
+      <Filter>UI\StageGoalPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainSpriteObject.cpp">
+      <Filter>Common\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickMePlease.cpp">
+      <Filter>Common\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NearMonsterAIComponent.cpp">
+      <Filter>Common\Component\AIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="RushMonsterAIComponent.cpp">
+      <Filter>Common\Component\AIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAIComponent.cpp">
+      <Filter>Common\Component\AIComponent\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderStaticTileAttack.cpp">
+      <Filter>Common\MonsterBehavior\Boss\Action</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEffect.cpp">
+      <Filter>Common\Effect\GameEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{c995bc99-cbb6-4e17-a559-7c0b0ddb23ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Base">
+      <UniqueIdentifier>{991947e1-76ae-4c79-aac1-c4f831393852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Map">
+      <UniqueIdentifier>{71eeb71a-5318-467d-be7b-0c48b4ed771a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Player">
+      <UniqueIdentifier>{2e2ac83d-c6b7-42eb-a3ff-1e0191620fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Player\Action">
+      <UniqueIdentifier>{0bac544a-2112-4247-9415-83a4debc2929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Component">
+      <UniqueIdentifier>{bd61c1a5-9207-49c7-8ed2-e517e704a9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\MonsterBehavior">
+      <UniqueIdentifier>{cb7cf5aa-cdff-48c9-9856-a4c598d8deb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Stage">
+      <UniqueIdentifier>{5f9d888e-ad30-4273-88cc-8dea4e27e832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\InteractableObject">
+      <UniqueIdentifier>{6c195b0e-5c45-4635-9ee5-f150f3b40d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Monster">
+      <UniqueIdentifier>{c46c3ae8-5b21-4e4b-81f3-8af64e7db179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Object">
+      <UniqueIdentifier>{df5e5753-3346-48ac-b422-dff07826c660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Effect">
+      <UniqueIdentifier>{8303eaa2-e612-4bd4-a393-c9edb23c2e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\GameManager">
+      <UniqueIdentifier>{8e43873b-dc34-466e-aac7-260f184e7270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Component\Scene">
+      <UniqueIdentifier>{fbbe375c-99c5-4cd2-b3dd-773f194ffcf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d9b61205-7bd5-48d6-a054-b4a7f782d7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{ecd94ccf-7fee-43f5-a357-e8980b1cc83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{ba503e06-e975-4dea-ae21-82839648f23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\TurnInfoPannel">
+      <UniqueIdentifier>{bdb01189-18aa-41de-ac98-6d199f5e8abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\WaveInfoPannel">
+      <UniqueIdentifier>{6298b703-eb3a-4a2c-a155-3fb133c8f3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Title">
+      <UniqueIdentifier>{32e002c2-58d4-408b-8d3b-377bbff2cefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\PlayerWeaponState">
+      <UniqueIdentifier>{9b297f1e-7c6c-4db9-9f83-ad52729252d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Dialog">
+      <UniqueIdentifier>{332f2ffc-167e-43e1-9c07-9d0af8f24059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Text">
+      <UniqueIdentifier>{a77a96d9-361a-4ce3-a5c5-cda742ace889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SpawnWarning">
+      <UniqueIdentifier>{c517a5b0-d0e1-4b10-8f3e-8f4556df6990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\WaveInfoPannel\MonsterInfoPannel">
+      <UniqueIdentifier>{61d9fec5-5093-4195-bc5f-3f4efa655ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Cursor">
+      <UniqueIdentifier>{1bc38123-45ba-4576-9a6a-ce153d2a6120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Tutorial">
+      <UniqueIdentifier>{ac66bb97-895e-4b68-a81f-307876cdc36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Tutorial\TutorialPlayer">
+      <UniqueIdentifier>{21e103e3-9f25-4fb4-917f-e308af43dccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Tutorial\TutorialGameManager">
+      <UniqueIdentifier>{acdea2c4-be7b-46ec-94ce-a9b6d15b2096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Tutorial\TutorialUI">
+      <UniqueIdentifier>{b4508d7f-7d4d-4dc2-a7a6-ce775cecbf04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Effect\GameEffect">
+      <UniqueIdentifier>{591460ec-d668-4f0b-a408-2b1f02880ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\MonsterBehavior\Boss">
+      <UniqueIdentifier>{d5dbf141-6281-4326-acb0-1bfd758feca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\MonsterBehavior\Monster">
+      <UniqueIdentifier>{949242b3-30cb-4e3d-b149-d2025ea87181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\MonsterBehavior\Monster\Action">
+      <UniqueIdentifier>{60086892-0d9e-4fcc-b19a-6263bb46b7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\MonsterBehavior\Boss\Action">
+      <UniqueIdentifier>{a65a9429-2d30-41c2-b268-bedc7675ed03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Monster\Boss">
+      <UniqueIdentifier>{156cb867-f3da-45d8-a22e-b78b35063848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\GameOver">
+      <UniqueIdentifier>{780ad9a2-44ed-4ab3-a5fc-bbf485efa29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Button">
+      <UniqueIdentifier>{7190725f-87cf-42ca-800e-df9526a0d198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Image">
+      <UniqueIdentifier>{0025c49b-30b9-4eed-b242-c62f6e93abe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Component\AIComponent">
+      <UniqueIdentifier>{64781561-f039-4f87-9584-8a4998b6372c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Component\AIComponent\Boss">
+      <UniqueIdentifier>{231abd01-d033-4a5f-96f9-624617fab6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\StageGoalPannel">
+      <UniqueIdentifier>{639f42d2-1260-4e87-b8bd-14537e1da266}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Player.h">
+      <Filter>Common\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootChandelier.h">
+      <Filter>Common\Player\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Common\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterComponent.h">
+      <Filter>Common\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="StageInfo.h">
+      <Filter>Common\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMonster.h">
+      <Filter>Common\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Shade.h">
+      <Filter>Common\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor_Aim.h">
+      <Filter>UI\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="Selectable.h">
+      <Filter>Common\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterIdle.h">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterMove.h">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAttack.h">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEffect.h">
+      <Filter>Common\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Common\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Common\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>Common\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterRush.h">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="RushTest.h">
+      <Filter>Common\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthComponent.h">
+      <Filter>Common\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneExitEffecter.h">
+      <Filter>Common\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEnterEffecter.h">
+      <Filter>Common\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterFarAttack.h">
+      <Filter>Common\MonsterBehavior\Monster\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Highlightable.h">
+      <Filter>Common\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintActionPriority.h">
+      <Filter>Common\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="FarMonster.h">
+      <Filter>Common\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingHorse.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnLeft.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnObject.h">
+      <Filter>UI\TurnInfoPannel</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnPannel.h">
+      <Filter>UI\TurnInfoPannel</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveIcon.h">
+      <Filter>UI\TurnInfoPannel</Filter>
+    </ClInclude>
+    <ClInclude Include="NextTurnText.h">
+      <Filter>UI\WaveInfoPannel</Filter>
+    </ClInclude>
+    <ClInclude Include="NextWaveInfoPannel.h">
+      <Filter>UI\WaveInfoPannel</Filter>
+    </ClInclude>
+    <ClInclude Include="StageUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TrashAnimation.h">
+      <Filter>Common\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveObject.h">
+      <Filter>UI\WaveInfoPannel</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponStateUI.h">
+      <Filter>UI\PlayerWeaponState</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>UI\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TextObject.h">
+      <Filter>UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnWarning.h">
+      <Filter>UI\SpawnWarning</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterInfoPannel.h">
+      <Filter>UI\WaveInfoPannel\MonsterInfoPannel</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticModeBtn.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialPlayer.h">
+      <Filter>Common\Tutorial\TutorialPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialGameManager.h">
+      <Filter>Common\Tutorial\TutorialGameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollObject.h">
+      <Filter>Common\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerText.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatBalloonComponent.h">
+      <Filter>Common\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEffect.h">
+      <Filter>Common\Effect\GameEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPhase.h">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="HasTargetInRange.h">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="IsEnemyRightInFront.h">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="RootBehavior.h">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetIsMonster.h">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetIsNone.h">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetIsPlayer.h">
+      <Filter>Common\MonsterBehavior\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPlayerTarget.h">
+      <Filter>Common\MonsterBehavior\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPattern.h">
+      <Filter>Common\MonsterBehavior\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackToPlayer.h">
+      <Filter>Common\MonsterBehavior\Boss\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Common\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossLeftHand.h">
+      <Filter>Common\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRightHand.h">
+      <Filter>Common\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackTile.h">
+      <Filter>Common\MonsterBehavior\Boss\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverUI.h">
+      <Filter>UI\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonUI.h">
+      <Filter>UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageUI.h">
+      <Filter>UI\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Common\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEnum.h">
+      <Filter>Common\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="FarMonsterAIComponent.h">
+      <Filter>Common\Component\AIComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="NearMonsterAIComponent.h">
+      <Filter>Common\Component\AIComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="RushMonsterAIComponent.h">
+      <Filter>Common\Component\AIComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAIComponent.h">
+      <Filter>Common\Component\AIComponent\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderStaticTileAttack.h">
+      <Filter>Common\MonsterBehavior\Boss\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StageGoalPannel.h">
+      <Filter>UI\StageGoalPannel</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainSpriteObject.h">
+      <Filter>Common\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickMePlease.h">
+      <Filter>Common\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionHelper.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

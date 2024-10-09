@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{6146a7e7-c890-4a36-8615-fa5a1d18f793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{1014b55c-16aa-4563-8da2-7d471a05c507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{43e75c30-6e12-48be-a5a8-5f379e5dc59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Container">
+      <UniqueIdentifier>{a0cf025e-1e88-4139-be0a-d4f8b96d6ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{3691aabd-de72-4b50-969b-ef3d9116cd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{2f0e17be-d97e-4757-bb2b-7e452482e8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{c06432ab-62d2-4df8-be34-d08b52d769f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{0b272f31-f82b-4543-b8b4-042e4a9469c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{d814fc84-f44f-4714-bdf1-b83f8634b179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{4f3a0716-a570-41a9-9efb-d0bd46fdc5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{16b2236a-10ff-4bdc-8ce7-d1560fbfb292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Container\BT">
+      <UniqueIdentifier>{e0ef796d-4696-48a6-aad9-f3cad40d2ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Reflect">
+      <UniqueIdentifier>{18f18985-56b7-4ded-81ef-d93c10c097da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAPIFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AtlasImage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Common\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Common\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Common\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="CastingResult.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Common\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="FiniteStateMachine.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody2D.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCheck.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixTransform.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerFunctionManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsConstant.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderType.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFont.h">
+      <Filter>Common\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorTree.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BTStatus.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionNode.h">
+      <Filter>Common\Container\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBTNode.h">
+      <Filter>Common\Container\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorNode.h">
+      <Filter>Common\Container\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallelNode.h">
+      <Filter>Common\Container\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSelectorNode.h">
+      <Filter>Common\Container\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorNode.h">
+      <Filter>Common\Container\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceNode.h">
+      <Filter>Common\Container\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="AIComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectObject.h">
+      <Filter>Engine\Reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Engine\Reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="Archive.h">
+      <Filter>Engine\Reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>Engine\Reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAsset.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTreeV2.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NineSlicedImage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DogeEngine.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="DogeEngine.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Common\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Common\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Structures.cpp">
+      <Filter>Common\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="CastingResult.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Common\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="FiniteStateMachine.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody2D.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCheck.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixTransform.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerFunctionManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsConstant.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFont.cpp">
+      <Filter>Common\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviorTree.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionNode.cpp">
+      <Filter>Common\Container\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBTNode.cpp">
+      <Filter>Common\Container\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoratorNode.cpp">
+      <Filter>Common\Container\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallelNode.cpp">
+      <Filter>Common\Container\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSelectorNode.cpp">
+      <Filter>Common\Container\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectorNode.cpp">
+      <Filter>Common\Container\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceNode.cpp">
+      <Filter>Common\Container\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="AIComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectObject.cpp">
+      <Filter>Engine\Reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>Engine\Reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive.cpp">
+      <Filter>Engine\Reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="Property.cpp">
+      <Filter>Engine\Reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAsset.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourTreeV2.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioFramework.cpp" />
+  </ItemGroup>
+</Project>
